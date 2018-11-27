@@ -15,4 +15,9 @@ class BusTest < MiniTest::Test
     assert_equal("brum brum", @bus.driving_sound)
 
   end
+
+  def test_number_of_passengers
+    assert_equal(0, @bus.number_of_passengers)
+  end
+
 end
