@@ -1,13 +1,15 @@
 class Bus
 
-attr_accessor :route_number, :destination
+  attr_accessor :route_number, :destination
 
   def initialize(route_number, destination)
     @route_number = route_number
-    @destination = destinition
+    @destination = destination
   end
 
-
+  def driving_sound
+    return "brum brum"
+  end
 
 
 end
