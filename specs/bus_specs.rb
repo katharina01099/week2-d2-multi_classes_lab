@@ -11,5 +11,8 @@ class BusTest < MiniTest::Test
     @bus = Bus.new(route_number, destination)
   end
 
+  def test_driving_sound
+    assert_equal("brum brum", @bus.driving_sound)
 
+  end
 end
